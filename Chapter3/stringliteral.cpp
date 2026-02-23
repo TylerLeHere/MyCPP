@@ -1,14 +1,26 @@
-//
-// Created by Tyler Le on 2026-02-17.
-//
 #include <iostream>
 #include <string>
-using namespace std;
-int main()
-{
-    string line;
-    // read input a line at a time until end-of-file
-    while (getline(cin, line))
-        cout << line << endl;
-    return 0;
+
+using std::cin;
+using std::cout;
+using std::string;
+
+int main() {
+   // string result = "", s;
+    // while (getline(cin, s)) {
+    //     result.append(s);
+    // }
+    //
+    // cout << result << '\n';
+    // return 0;
+
+    // Use the range to change all characters in a string to x
+
+    // std::string s = "abcd efg123";
+    // cout << s << '\n';
+    //
+    // for (auto &c : s) {
+    //     c = 'x';
+    // }
+    // cout << s << '\n';
 }
